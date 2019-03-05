@@ -2,7 +2,7 @@ import React from 'react';
 
 const Album = () => (
   <section className="album">
-   Library will go here.
+    Albums will go here
   </section>
 );
 
