@@ -1,19 +1,26 @@
 {
-  "name": "bloc-jams-react",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "react-bloc-jams-react",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.5"
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^4.4.0",
+    "react-scripts": "2.1.8"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
