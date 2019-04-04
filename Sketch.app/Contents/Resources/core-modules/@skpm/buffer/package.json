@@ -1,0 +1,73 @@
+{
+  "_from": "@skpm/buffer@0.1.2",
+  "_id": "@skpm/buffer@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-/Ls1juO7Nl842B1di6sCCjgF2BZW0sX2sIumbnTHOP1NixFwhVq/iwenlv16MtgnZdIivOA1yIE1QRjKDQY82g==",
+  "_location": "/@skpm/buffer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@skpm/buffer@0.1.2",
+    "name": "@skpm/buffer",
+    "escapedName": "@skpm%2fbuffer",
+    "scope": "@skpm",
+    "rawSpec": "0.1.2",
+    "saveSpec": null,
+    "fetchSpec": "0.1.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@skpm/buffer/-/buffer-0.1.2.tgz",
+  "_shasum": "d06eecb5c69aefa20685af1f30eb4dddb871c743",
+  "_spec": "@skpm/buffer@0.1.2",
+  "_where": "/Users/Shared/Jenkins/workspace/Stage/Modules/SketchAPI/core-modules",
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org"
+  },
+  "bugs": {
+    "url": "https://github.com/skpm/buffer/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Romain Beauxis",
+      "email": "toots@rastageeks.org"
+    },
+    {
+      "name": "James Halliday",
+      "email": "mail@substack.net"
+    }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Node.js Buffer API, for Sketch",
+  "devDependencies": {
+    "@skpm/test-runner": "^0.3.8"
+  },
+  "homepage": "https://github.com/skpm/buffer",
+  "keywords": [
+    "arraybuffer",
+    "browser",
+    "browserify",
+    "buffer",
+    "compatible",
+    "dataview",
+    "uint8array"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@skpm/buffer",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/skpm/buffer.git"
+  },
+  "scripts": {
+    "test": "skpm-test --app=latest"
+  },
+  "types": "index.d.ts",
+  "version": "0.1.2"
+}

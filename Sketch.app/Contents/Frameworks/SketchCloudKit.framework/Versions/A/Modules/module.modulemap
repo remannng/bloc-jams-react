@@ -1,0 +1,11 @@
+framework module SketchCloudKit {
+  umbrella header "SketchCloudKit.h"
+
+  export *
+  module * { export * }
+}
+
+module SketchCloudKit.Swift {
+    header "SketchCloudKit-Swift.h"
+    requires objc
+}

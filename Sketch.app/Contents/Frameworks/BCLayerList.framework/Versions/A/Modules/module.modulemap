@@ -1,0 +1,6 @@
+framework module BCLayerList {
+  umbrella header "BCLayerList.h"
+
+  export *
+  module * { export * }
+}

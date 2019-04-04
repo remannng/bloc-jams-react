@@ -1,0 +1,6 @@
+framework module BCCrypto {
+  umbrella header "BCCrypto.h"
+
+  export *
+  module * { export * }
+}

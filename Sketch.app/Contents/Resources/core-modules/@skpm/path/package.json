@@ -1,0 +1,57 @@
+{
+  "_from": "@skpm/path@0.1.3",
+  "_id": "@skpm/path@0.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-Hr+MLoUQllEmdsfh7N4IDFCQZn5sRXmw09xvXr88Kkoe3OFSJdG810anzDmiRj/mVPN7tVgyl5Fur++QMJdn+g==",
+  "_location": "/@skpm/path",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@skpm/path@0.1.3",
+    "name": "@skpm/path",
+    "escapedName": "@skpm%2fpath",
+    "scope": "@skpm",
+    "rawSpec": "0.1.3",
+    "saveSpec": null,
+    "fetchSpec": "0.1.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@skpm/path/-/path-0.1.3.tgz",
+  "_shasum": "f9940fdad2a3809d2e0391d8a1f572ec60a0e597",
+  "_spec": "@skpm/path@0.1.3",
+  "_where": "/Users/Shared/Jenkins/workspace/Stage/Modules/SketchAPI/core-modules",
+  "author": {
+    "name": "Mathieu Dutour",
+    "email": "mathieu@dutour.me",
+    "url": "http://mathieu.dutour.me/"
+  },
+  "bugs": {
+    "url": "https://github.com/skpm/path/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A drop-in replacement for the path nodejs module",
+  "devDependencies": {
+    "@skpm/test-runner": "^0.3.3"
+  },
+  "homepage": "https://github.com/skpm/path#readme",
+  "keywords": [
+    "sketch",
+    "module",
+    "path"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@skpm/path",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skpm/path.git"
+  },
+  "scripts": {
+    "test": "skpm-test"
+  },
+  "version": "0.1.3"
+}

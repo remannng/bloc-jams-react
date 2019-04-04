@@ -119,6 +119,7 @@ class Album extends Component {
              <div id="release-info">{this.state.album.releaseInfo}</div>
            </div>
          </section>
+         <div className="song-list-container">
          <table id="song-list">
            <colgroup>
              <col id="song-number-column" />
@@ -143,11 +144,12 @@ class Album extends Component {
                 </button>
               </td>
               <td className="song-title">{song.title}</td>
-              <td className="song-duration">{song.duration}</td>
+              <td className="song-duration">{this.formatTime(song.duration)}</td>
             </tr>
           )}
            </tbody>
          </table>
+         </div>
          <PlayerBar
            isPlaying={this.state.isPlaying}
            currentSong={this.state.currentSong}

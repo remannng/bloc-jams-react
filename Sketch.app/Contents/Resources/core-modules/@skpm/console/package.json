@@ -1,0 +1,60 @@
+{
+  "_from": "@skpm/console@0.1.8",
+  "_id": "@skpm/console@0.1.8",
+  "_inBundle": false,
+  "_integrity": "sha512-lpYl/S0NznitQJRDqqHrMo8jGeBpn5U179X7aI4E73/5TMQLoTLabpK3D4RTLtdjbUuMH38C2xrCkhw83d4rFg==",
+  "_location": "/@skpm/console",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@skpm/console@0.1.8",
+    "name": "@skpm/console",
+    "escapedName": "@skpm%2fconsole",
+    "scope": "@skpm",
+    "rawSpec": "0.1.8",
+    "saveSpec": null,
+    "fetchSpec": "0.1.8"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@skpm/console/-/console-0.1.8.tgz",
+  "_shasum": "42f9c1230fab376efb839cf5bd0c4e6cbc3ccf26",
+  "_spec": "@skpm/console@0.1.8",
+  "_where": "/Users/Shared/Jenkins/workspace/Stage/Modules/SketchAPI/core-modules",
+  "author": {
+    "name": "Mathieu Dutour",
+    "email": "mathieu@dutour.me",
+    "url": "http://mathieu.dutour.me/"
+  },
+  "bugs": {
+    "url": "https://github.com/skpm/console/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@skpm/util": "^0.1.9"
+  },
+  "deprecated": false,
+  "description": "A console polyfill for sketch",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "homepage": "https://github.com/skpm/console#readme",
+  "keywords": [
+    "sketch",
+    "console",
+    "polyfill"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@skpm/console",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skpm/console.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "version": "0.1.8"
+}

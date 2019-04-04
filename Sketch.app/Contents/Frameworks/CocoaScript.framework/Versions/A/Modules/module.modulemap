@@ -1,0 +1,6 @@
+framework module CocoaScript {
+  umbrella header "CocoaScript.h"
+
+  export *
+  module * { export * }
+}

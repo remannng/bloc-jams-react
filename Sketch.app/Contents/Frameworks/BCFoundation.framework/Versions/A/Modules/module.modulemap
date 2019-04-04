@@ -1,0 +1,6 @@
+framework module BCFoundation {
+  umbrella header "BCFoundation.h"
+
+  export *
+  module * { export * }
+}
